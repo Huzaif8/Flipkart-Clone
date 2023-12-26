@@ -1,0 +1,275 @@
+body {
+    background-color: #8c93a1;
+}
+
+.logo {
+    height: 45px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: -25px;
+}
+
+.navbar {
+    background-color: white;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 1515px;
+}
+
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f0f5ff;
+    width: 700px;
+    height: 40px;
+    border-radius: 3px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    background-color: #f0f5ff;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: black;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    cursor: pointer;
+}
+
+/* login button  */
+
+.login {
+    display: flex;
+    /* background-color: rgb(117, 120, 120); */
+    height: 40px;
+    width: 92px;
+    font-size: 1.2rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+    border-radius: 10px;
+}
+
+.login-icon {
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+/* cart Button All CSS Code  */
+
+.cart {
+    display: flex;
+    /* background-color: rgb(117, 120, 120); */
+    height: 40px;
+    width: 92px;
+    font-size: 1.35rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.cart-icon {
+    display: flex;
+}
+
+/* Become A Seller Button CSS Code  */
+.seller {
+    display: flex;
+    /* background-color: rgb(117, 120, 120); */
+    height: 40px;
+    width: 170px;
+    font-size: 1.1rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.seller-icon {
+    display: flex;
+}
+
+/* Menu Button CSS Code  */
+
+.menu-icon {
+    display: flex;
+    margin-top: 15px;
+    /* background-color: red; */
+    justify-content: flex-end;
+}
+
+/* From Now The Next Sub Nav Bar Code Is Started  */
+a {
+    text-decoration: none;
+    color: black;
+    margin-right: 35px;
+
+
+}
+
+.sub-navbar {
+    background-color: white;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 1507px;
+    height: 110px;
+    padding: 5px;
+    margin-top: 7px;
+
+}
+
+
+/* From now All Product Discovering is Strarted  */
+
+.electronics {
+    background-color: white;
+    height: 300px;
+    max-width: 1515px;
+    margin-top: 2px;
+    display: flex;
+    border: 2px solid black;
+    justify-content: space-evenly;
+
+}
+
+.electronics p {
+    font-size: 1.5rem;
+    margin-left: 10px;
+    margin-top: 1px;
+}
+
+
+.electronics-title {
+    height: 30px;
+    width: 1500px;
+    background-color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 7px;
+    border: 2px solid black;
+}
+
+
+/* fdssf suy  */
+
+.box-electronics {
+    height: 220px;
+    max-width: 300px;
+    border: 1px solid black;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 10px;
+}
+
+.box-content {
+    margin-left: 7px;
+    margin-right: 8px;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.box-content p {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+
+
+.product-class {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%; */
+    height: 150px;
+}
+
+
+
+/* Footer  */
+
+/* Footer  */
+
+footer {
+    margin-top: 4px;
+    width: 1505px;
+}
+
+.foot-panel1 {
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.foot-panel2 {
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul a {
+    display: block;
+    list-style-type: none;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.foot-panel3 {
+    background-color: #222f3d;
+    color: white;
+    border: 0.5px solid white;
+    height: 70px;
+    /* width: 100px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-footer {
+    background-image: url(Flipkart.svg);
+    background-size: cover;
+    height: 50px;
+    width: 200px;
+}
+
+.foot-panel4 {
+    background-color: #0f1111;
+    color: white;
+    height: 80px;
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+.pages {
+    padding-top: 20px;
+}
+
+.copyright {
+    padding-top: 5px;
+}

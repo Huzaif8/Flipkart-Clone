@@ -1,0 +1,14 @@
+
+/* Hover All Elements CSS Code Here  */
+
+.pointer:hover {
+    background-color: #2874f0;
+    border: 1px solid black;
+    color: white;
+    cursor: pointer;
+}
+
+/* 
+@media only screen and (max-width: 600px) {
+    hello mobile
+} */
